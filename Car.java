@@ -10,17 +10,27 @@ public class Car extends Vehicle
     this.Model = Model;
   }
   
-  public getManufacturer
+  public String getManufacturer()
   {
     
     return this.Manufacturer;
     
   }
   
-  public getModel
+  public String getModel()
   {
     
     return this.Model;
+    
+  }
+  
+  @Override
+  
+  public void printInfo()
+  
+  {
+    
+    System.out.println("This is a car");
     
   }
   
