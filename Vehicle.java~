@@ -1,9 +1,9 @@
 public class Vehicle { 
-    public enum MoveType{DRIVING, FLYING}; 
-    private MoveType moveType; 
+    public enum MoveTye{DRIVING, FLYING}; 
+    private MoveTye moveType; 
     private int maxSpeed; 
  
-    public Vehicle(MoveType T , int MSpeed){ 
+    public Vehicle(MoveTye T , int MSpeed){ 
         this.moveType = T; 
         this.maxSpeed = MSpeed; 
     } 
