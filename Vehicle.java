@@ -14,4 +14,7 @@ public class Vehicle {
     public MoveType getMoveType(){
         return this.moveType;
     }
+    public void printInfo(){
+        System.out.println("This is a vehicle!");
+    }
 }

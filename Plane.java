@@ -19,4 +19,8 @@ public class Plane extends Vehicle {
     public int getMaxPersonLoad(){
         return this.maxPersonLoad;
     }
+    @Override
+    public void printInfo(){
+        System.out.println("This is a plane!");
+    }
 }
