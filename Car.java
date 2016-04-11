@@ -10,6 +10,19 @@ public class Car extends Vehicle
     this.Model = Model;
   }
   
+  public getManufacturer
+  {
+    
+    return this.Manufacturer;
+    
+  }
+  
+  public getModel
+  {
+    
+    return this.Model;
+    
+  }
   
   
 }
